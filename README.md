@@ -13,3 +13,15 @@ Router::connect('/', array(), function($request) {
 });
 ```
 
+Now, with PHP 5.4 goodness! Execute the PHAR from the command-line to run Sinatrium with PHP's built-in web server.
+
+```
+$ php lithium.phar
+
+// OR
+
+$ php lithium.phar -hlocalhost -p8000
+
+// Visit http://localhost:8000 for Sinatrium goodness.
+```
+
